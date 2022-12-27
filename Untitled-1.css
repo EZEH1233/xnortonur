@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+background: linear-gradient(to right, rgb(24, 20, 20) , rgb(15, 14, 14));
+height: 100vh;
+}
+#menu img{
+    margin-top: -4%;
+    max-width: 20%;
+    width: 100%;
+}
+#menu div{
+    height: 3px;
+    width: 50px;
+    background-color: antiquewhite;
+    margin: 2px;
+    margin-left: auto;
+  margin-right: 18px;
+  margin-top: 4px;
+transition: 0.5s;
+
+}
+#menu{
+    padding: 2%;
+}
+li{
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 900;
+    list-style-type: none;
+padding: 4%;
+margin-left: 6%;
+color: rgb(183, 192, 183);
+font-family: Pitch Sans Regular,Helvetica,Arial,sans-serif;
+border: 0.3px solid rgb(23, 22, 22);
+margin:13px;
+box-shadow: 5px 4px 32px black;
+
+}
+li:hover{
+    background-color:  rgb(30, 217, 83);
+    color: black;
+}
+.box{
+position: fixed;
+    height: 100vh;
+    width: 700px;
+    border-left: 30px  solid rgb(19, 18, 18);
+    border-bottom: 30px  solid rgb(24, 23, 23);
+    background-color: transparent;
+    margin-top: -20%;
+    z-index: -200;
+    transform: rotate(47deg);
+
+}
+.hea{
+    background: linear-gradient(to right, rgb(24, 20, 20) , rgb(15, 14, 14));
+    position: fixed;
+    width: 100%;
+    z-index: 21;
+    top: 0%;
+}
+#list {
+margin-left: auto ;
+float: right;
+margin-right: 20px;
+background: rgb(23, 20, 20);
+height: fit-content;
+width: 50%;
+transition: 2s;
+animation: move 0.3s;
+margin-top: -2%;
+display: none;
+box-shadow: 3px 4px 32px black;
+position: absolute;
+right: 0;
+z-index: 10000;
+cursor: pointer;
+} 
+@keyframes move{
+    0%{
+        width: 0;
+    }
+    100%{
+        height: fit-content;
+    }
+}
+#menu h1{
+    margin-top: -4.2%;
+    color: hsla(316, 55%, 53%, 0);
+    background-color: rgb(149, 40, 114);
+    width: fit-content;
+}
+#menu h2{
+    font-family: Pitch Sans Regular,Helvetica,Arial,sans-serif;
+    color: rgb(228, 224, 224);
+    font-weight: 800;
+    margin-top: -3%;
+}
+#menu p{
+    color: rgb(97, 99, 98);
+    margin-left: 3px;
+    margin-top: -12px;
+    
+
+}
+.title h1{
+    font-size: 90px;
+    font-family: Poppins,sans-serif!important;
+    font-weight: 700;
+    color: rgb(30, 217, 83);
+    padding:0px  2%;
+    margin-top: 35%;
+    border: 10x solid rgb(201, 69, 166) ;
+    letter-spacing: -7px;
+ 
+}
+.title img{
+    
+}
+.title h3{
+
+    color: rgb(174, 174, 174);
+    padding:  0px 2.4%;
+    font-family: Pitch Sans Regular,Helvetica,Arial,sans-serif;
+}
+.title p{
+    margin-top: -1.2%;
+    padding:  0px 2.3%;
+    color: rgb(214, 210, 210);
+    color: bisque;
+    font-weight: 700;
+
+}
+.title button{
+    padding:  20px 80px;
+    background-color: transparent;
+    font-size: 20px;
+    color: rgb(240, 235, 235);
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-left: 2.2%;
+    margin-top:0%;
+   border: 0.5px solid rgb(47, 45, 45);
+   
+}
+/* .title button:hover{
+    background-color: rgb(106, 48, 102);
+    transition: 0.2s;
+    color: black;
+} */
+.title .button .div{
+margin-top: -3%;
+
+    width: 0px;
+    height: 70px;
+    margin-left: -12%;
+    position: absolute;
+    background-color: rgb(133, 242, 78);
+    z-index: -2;
+    border: 0pt;
+    transition: 0.5s;
+}
+.eno span{
+    transition: 0.5s;
+    max-height: 10px;
+}
+.eno span{
+  
+}
+.button:hover.button .div{
+   width: 200px;
+  
+}
+.project h3{
+    margin-top: 6%;
+    font-size: 42px;
+    text-align: center;
+    color: rgb(240, 240, 240);
+    font-family: p;
+    font-weight: 800;  letter-spacing: -3px;
+    font-family: Poppins,sans-serif!important;
+}
+.project p{
+    color: rgb(215, 215, 215);
+    font-family: Poppins,sans-serif!important;
+  
+}
+.steps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.steps h1{
+    letter-spacing: -3px;
+    font-family: Poppins,sans-serif!important;
+    color: rgb(212, 217, 217);
+    color: rgb(29, 28, 28);
+    font-weight: 700; transition: 2s;
+}
+.steps p{
+   
+    font-family: Poppins,sans-serif!important;
+    color: rgb(212, 217, 217);
+    color: rgb(190, 190, 190);
+    font-weight: 400;
+   margin-bottom: 5%;
+   font-size: 20px;
+   
+   transition: 2s;
+}
+.stepss{
+background-color: rgb(27, 85, 85);
+position: relative;
+width: 100%;
+height: fit-content;
+z-index: 400; transition: 2s;
+color: aliceblue;
+padding-bottom: 6%;
+}
+.steps{
+
+}
+.lo{
+    margin-top: 5%;
+}
+.stepss button{
+  padding: 20px 200px;
+  margin-right: auto;
+  margin-top: -3%;
+}
+.stress{
+ background-color: rgb(58, 56, 57);
+    height: 50px;
+    width: 300px;
+}
+.stress h3{
+    font-family: cursive;
+    font-size: 20px;
+ color: beige;
+}
+.ass h1{
+ font-size: 70px;
+ font-weight: 800;
+ letter-spacing: -3px;
+ color: rgb(43, 226, 122);
+ margin-top: 8%;
+}
+.ass p{
+    color: bisque;
+    font-size: 20px;
+}
+.long div{
+    width: 2px;
+    height: 140%;
+    background-color: rgb(43, 226, 122) ;
+    margin: auto;
+    margin-top: 12%;
+    border-bottom: 2px solid rgb(43, 226, 122) ;
+    animation: long 2s infinite;
+}
+
+@keyframes long {
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 140% ;
+    }
+}
+.dl{
+    margin-top: 30%;
+}
+input , textarea{
+  width: 100%;   border: 0pt;
+  background-color: rgb(41, 40, 40);
+}
+input{
+ 
+    height: 10vh;
+    background-color: rgb(41, 40, 40);
+}
+footer{
+    background-color: rgb(31, 29, 29);
+    height: 86vh;
+    width: 100%;
+    margin-top: 5%;
+}
+footer .div{
+    height: 2px;
+    width: 100%;
+    background-color: rgb(47, 45, 45);
+    margin-top: 4%;
+}
+footer button{
+    background-color: rgb(69, 69, 69);
+    padding: 20px 70px;
+position: absolute;
+
+margin-top: -5%;
+color: rgb(174, 178, 181);
+}
+footer button:hover{
+    background-color: rgb(106, 48, 102);
+}
+footer h2{
+    font-family: Poppins,sans-serif!important;
+    font-size: 20px;
+    color: rgb(184, 183, 183);
+}
+footer p {
+    color: rgb(132, 130, 130);
+}
+.temp{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(53, 53, 53);
+    margin-left: auto;
+    margin-top: -26%;
+    border-radius: 0 0 0 50%;
+   position: relative;
+   border-left: 2px solid rgb(43, 226, 122) ;
+}
+.ass1{
+    color: antiquewhite;
+    margin: 20px 0px;
+}
+input{
+    color: azure;
+}
+input , textarea{
+    outline: none;
+   color: azure;
+   font-size: 20px;
+   padding: 7px;
+}
+.ass h1 span {
+ width: 20px;
+
+}
+.move div{
+ width: 340px;
+right: 0%;
+margin-top: -43%;
+ height: 70px;
+ background: linear-gradient(to right, rgb(24, 20, 20) , rgb(15, 14, 14));
+}
+@media(max-width: 709px){
+
+    #menu img{
+      width: 100px;
+    }
+}
+#list li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+@media(max-width: 720px) {    body{
+        overflow-x: hidden;
+    }
+    .title h1{
+        font-size: 70px;
+    }
+    #list{
+        width: 90%;
+        height: fit-content;
+    }
+    .ass img{
+        margin-left: 4%;
+    }
+    .ass .flow{
+        margin-top: -29%;
+    }
+    li{
+        padding: 12%;
+    }
+    #menu img{
+        max-width: 40%;
+        width: 100%;
+        margin-top: -14%;
+    }
+    .title h1{
+        margin-top: 45%;
+    }
+    .title img{
+        margin-top: -34%;
+    }
+    .project h3{
+        margin-top: -10%;
+      }
+      .project img{
+    width: 100%;
+      }
+      .temp{
+        width: 100%;
+      }
+      footer button{
+ margin-left: 20%;
+      }
+      footer{
+        height: fit-content;
+      }
+    }
